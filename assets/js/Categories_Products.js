@@ -9,7 +9,7 @@ const displayProducts = (response, page = 1) => {
         const result = productsToShow.map(product =>
             `
             <div class = "col-6 col-md-3 mb-4">
-                <div class="card h-100" style="width: 18rem;">
+                <div class="card h-100">
                     <img src= ${product.thumbnail} class="card-img-top" alt=${product.title}>
                     <div class="card-body">
                         <h5 class="card-title">${product.title}</h5>

@@ -43,7 +43,7 @@ const display = (response, page = 1) => {
         const result = response.data.products.map(product =>
             `
                 <div class="col-6 col-md-3 mb-4">
-                    <div class="card flex-fill h-100" style="width: 18rem;">
+                    <div class="card flex-fill h-100">
                         <img src="${product.thumbnail}" class="card-img-top" alt="${product.title}">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title">${product.title}</h5>
